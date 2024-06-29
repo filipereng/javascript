@@ -13,16 +13,16 @@
     </style>
 
     <h1>DOM</h1>
-
     <p>aqui eu gosto de usar interpolação!</p>
     <p>aprendendo usar o <strong>DOM</strong> em JavaScript.</p>
-    <div>Clique aqui!</div>
+    <div id="msg">Clique aqui!</div>
     <script>
-        var body = document.getElementsByTagName('body')[0]// PEGAR ELEMENTO VIA TAG/NOME
-        var p1 = document.getElementsByTagName('p')[0]
-        window.document.write(`aqui vai a magica: ' ${p1.innerText}`)//inner.text só o text innerHTML pega a frase toda
-        p1.style.color = 'blue'
-        body.style.backgroundColor = 'grey'
+        
+        var dm = document.getElementById('msg').innerText = 'Mudei a frase por aqui'// PEGAR ELEMENTO VIA ID
+        window.document.write(`aqui vai a magica: ' ${msg.innerHTML}`)//inner.text só o text innerHTML pega a frase toda
+        msg.style.color = 'blue'
+       // msg.innerText = 'Mudei a frase'
+        
     </script>
     
 </body>
