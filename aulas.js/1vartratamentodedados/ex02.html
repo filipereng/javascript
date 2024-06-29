@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tratamento/Conversão de dados</title>
+</head>
+<body>
+    <script>
+
+        var nome = prompt('Qual seu nome?')
+        var linguagem = prompt('Qual linguagem voçê gosta de estuda?')
+        alert(`O/A ${nome} gosta de estudar ${linguagem}`) // `Esse metodo se chama interpolação usando a ${variavel + 1}`
+        // ou mostrar objetos complexos como o `${JSON.stringify(variavel)}`
+
+    </script>
+
+    <script>
+
+        var n1 = parseInt(prompt('Digite um numero')) // aqui recebe sempre valor de 'string'
+        var n2 = parseInt(prompt('Digite outro numero')) // aqui recebe sempre valor de 'string'
+        var snum = n1 + n2
+        window.alert('A soma dos valores é  '+ snum) // + serve para adição para numeros e concatenação para string, frase + uma variavel
+
+    </script>
+
+    <script>
+        // de numero para string snum.toString()) ou String(snum))
+        var n1 = parseInt(prompt('Digite um numero')) // aqui recebe sempre valor de 'string'
+        var n2 = parseInt(prompt('Digite outro numero')) // aqui recebe sempre valor de 'string'
+        var snum = n1 + n2
+        window.alert('A soma dos valores é  '+ snum.toString()) // + serve para adição para numeros e concatenação para string, frase + uma variavel
+
+    </script>
+
+
+    </script>
+    <h1>Transformando dados string e number</h1>
+    <p>var n1 = Number.parseInt(window.prompt('Digite um numero'))</p> <!--de string para numero inteiro-->
+    <p>var n1 = Number.parseFloat(window.prompt('Digite um numero'))</p> <!--de string para numero real/quebrado-->
+    <p>var n1 = Number(window.prompt('Digite um numero'))</p> <!--de string para numero real/inteiro-->
+    <h2>Forma simplificada</h2>
+    <p>var n1 = Number(prompt('Digite um numero'))</p>
+    
+</body>
+</html>
