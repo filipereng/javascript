@@ -7,6 +7,20 @@
 </head>
 <body>
     <h1>Somando valores</h1>
-    
+    <input type="number" name="txtn1" id="txtn1" placeholder="Digite um numero"> +
+    <input type="number" name="txtn2" id="txtn2" placeholder="Digite outro numero">
+    <input type="button" value="Somar" onclick="somar()">
+    <div id="sum"><strong>Aqui será seu resultado:</strong></div>
+    <script>
+        function somar() {
+            var tx1 = document.getElementById('txtn1')
+            var tx2 = document.getElementById('txtn2')
+            var result = document.getElementById('sum')
+            var n1 = Number(tx1.value)
+            var n2 = Number(tx1.value)
+            var sum = n1 + n2
+            result.innerHTML = (`<strong>Resultado é...${sum}</strong>`)
+        }
+    </script>
 </body>
 </html>
