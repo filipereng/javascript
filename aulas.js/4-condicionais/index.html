@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio condicionais/IF ELSE</title>
+</head>
+<body>
+    <input name="txt1" id="txt1" placeholder="Digite seu pais">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">Resposta</div>
+    
+    <script>
+        function calcular() {
+            var pais = document.querySelector('input#txt1')
+            var res = document.querySelector('div#res')
+            res.innerHTML = `vc é ${pais}`
+        }
+        if (pais == 'brasil') {
+            document.write(`vc está no ${pais}`)
+        } else {
+            document.write('vc é EN')
+        }
+       
+
+        
+    
+        
+
+    </script>
+</body>
+</html>
