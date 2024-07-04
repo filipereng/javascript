@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h1>Somando valores</h1>
+    <input type="number" name="txtn1" id="txtn1" placeholder="Digite um numero"> +
+    <input type="number" name="txtn2" id="txtn2" placeholder="Digite outro numero">
+    <input type="button" value="Somar">
+    <div id="sum"><strong>Aqui será seu resultado:</strong></div>
+    <script>
+        var inBtn = document.getElementById('inBtn')
+        inBtn.addEventListener('Somar', somar)
+        function somar() {
+            var tx1 = document.getElementById('txtn1')
+            var tx2 = document.getElementById('txtn2')
+            var result = document.getElementById('sum')
+            var n1 = Number(tx1.value)
+            var n2 = Number(tx1.value)
+            var sum = n1 + n2
+            result.innerHTML = (`<strong>Resultado é...${sum}</strong>`)
+        }
+    </script>
+</body>
+</html>
