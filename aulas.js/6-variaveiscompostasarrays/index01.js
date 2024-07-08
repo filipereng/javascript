@@ -5,9 +5,9 @@ let frutas = ['banana', 'uva', 'maçã', 'morango', 'laranja']
 //console.log(`${frutas}`)
 //frutas.length['0']
 //console.log(frutas[3])//Mostrar o elemento pelo numero
-for (let pos = 0; pos < frutas.length; pos++) {
+/*for (let pos = 0; pos < frutas.length; pos++) {
     console.log(`${pos}, ${frutas[pos]}`)
-}
+}*/
 
 //console.log(`${frutas}`)
 //console.log(`a 3 fruta é ${frutas[3]}`)
