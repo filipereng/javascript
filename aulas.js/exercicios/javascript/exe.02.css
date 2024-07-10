@@ -1,0 +1,6 @@
+body {
+    background-color: grey;
+}
+select#flista {
+    width: 200px;
+}
