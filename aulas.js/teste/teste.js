@@ -1,7 +1,3 @@
-var hora = 'horário'
-function horaIr() {
-    if (hora >= 6 && hora <= 10) 
-        return 'Vai!'
-    } else {
-        return 'NÃO VAI!'
-    }
+for (let i = 0; i < 5; i++) {
+    console.log('são 5 linhas,', i)
+}
