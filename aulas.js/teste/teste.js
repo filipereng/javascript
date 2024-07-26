@@ -1,7 +1,6 @@
-var i = 50
 
-for (var i = 50; i >= 0; i--) {
-    console.log(i)
-    
+for (let index = 0; index < array.length; index++) {
+    const element = array[index];
+    for (i = 1; i <= 10; i++)
+        console.log(i)
 }
-console.log('FIM')
