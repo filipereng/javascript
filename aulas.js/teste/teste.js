@@ -1,6 +1,12 @@
 
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    for (i = 1; i <= 10; i++)
-        console.log(i)
+function somaNum() {
+    let n1 = 1
+    let n2 = 2
+    let soma = n1 + n2
+    console.log(soma)
 }
+for (let i = 0; i < 5; i++) {
+    somaNum()
+}
+
+console.log(soma)
