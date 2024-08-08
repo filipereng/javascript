@@ -1,8 +1,3 @@
-while (1 === 1) {
-    console.log(true);
+for (let i = 1; i <= 10; i++)
+    console.log('estou aprendendo 10x ' + i);
     
-}
-
-
-
-
