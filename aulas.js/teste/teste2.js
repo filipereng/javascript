@@ -1,3 +1,6 @@
-for (let i = 1; i <= 10; i++)
-    console.log('estou aprendendo 10x ' + i);
-    
+let valores = [10, 20]
+function mostreMaiorNumero(n1, n2) {
+    for (let valores = 0; valores < 1; valores++) {
+        console.log(valores[1]);
+}}
+console.log(valores.length);
