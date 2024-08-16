@@ -1,7 +1,7 @@
-function mudarLetras(texto) {
-    console.log();
-}
-console.log(mudarLetras()toUpper);
+var nome = 'Filipe'
+nome = nome.toUpperCase()
+console.log(nome);
+
 
 
 
