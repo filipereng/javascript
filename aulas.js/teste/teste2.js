@@ -1,6 +1,12 @@
-var nomes = ['ana', 'filipe', 'leo', 'zé']
-//var dados = {nome: 'filipe', idade: 30}
-for (var nome in nomes){
-    console.log(nomes[nome]);
+function soma(n1, n2){
+    console.log(arguments);
+    return n1 + n2
+    console.log();
     
 }
+
+console.log(soma(1,5,7,10));
+
+
+
+
