@@ -1,5 +1,9 @@
-let dados = [
+const pessoas = [
     {nome: 'ana', idade: 21},
-    {nome: 'filipe', idade: 30}
+    {nome: 'filipe', idade: 30},
+    {nome: 'zé', idade: 40}
 ]
-console.log(JSON.stringify.dados}`);
+
+let maiorIdade = pessoas.filter((i) => i.idade >= 25)
+return true
+
