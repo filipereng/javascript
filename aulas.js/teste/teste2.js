@@ -1,12 +1,5 @@
-function soma(n1, n2){
-    console.log(arguments);
-    return n1 + n2
-    console.log();
-    
-}
-
-console.log(soma(1,5,7,10));
-
-
-
-
+let dados = [
+    {nome: 'ana', idade: 21},
+    {nome: 'filipe', idade: 30}
+]
+console.log(JSON.stringify.dados}`);
