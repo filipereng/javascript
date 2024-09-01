@@ -1,7 +1,15 @@
-const pessoas = ['ana', 'filipe', 'zé', 'leo', 'new', 'now', 'ribeiro']
+let nomes = {
+    nome: 'ana',
+    idade: 20,
+    endereço: {
+        rua: 'josé benedito',
+        casa: 1,
+        bairro: 'tupy'
+    }
+}
 
-const pessoas2 = ['ola', 'filipe', 'zé', 'leo', 'new', 'now', 'olé']
-
-const pessoas3 = ['pessoa333']
-
-console.log(pessoas.concat(pessoas2).concat(pessoas3));
+function teste(){
+    return ['Minha idade é...', 30]
+}
+let [string, numero] = teste()
+console.log(string, numero);
