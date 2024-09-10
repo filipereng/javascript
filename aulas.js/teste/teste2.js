@@ -1,15 +1,8 @@
-let nomes = {
-    nome: 'ana',
-    idade: 20,
-    endereço: {
-        rua: 'josé benedito',
-        casa: 1,
-        bairro: 'tupy'
-    }
+function apelido(callback, n){
+    callback('Jumento e tb sou um ' + n)
+}
+function meuNome(nome){
+    console.log(`Meu nome é ${nome}`);
 }
 
-function teste(){
-    return ['Minha idade é...', 30]
-}
-let [string, numero] = teste()
-console.log(string, numero);
+apelido(meuNome, 'Neandertal')
